@@ -7,7 +7,7 @@ int num_count = 0;
 const char* sluch_filename = "sluch_array.txt";//Файл для случайных чисел
 const char* output_filename = "sorted_array.txt";//Файл для отсортированного массива
 
-void sort(int arr[], int n) {
+void sort(int arr[], int n) { //Сортировка вставками
     for (int i = 1; i < n; i++) {
         int key = arr[i];
         int j = i - 1;
