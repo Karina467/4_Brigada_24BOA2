@@ -34,7 +34,8 @@ void print_array(int arr[], int n) {
     printf("\n");
 }
 
-int load_from_file(const char* filename, int** arr) {
+int load_from_file(const char* filename, int** arr) {//Загрузка массива из файла
+    
     FILE* file = fopen(filename, "r");
     int count = 0;
     int temp;
