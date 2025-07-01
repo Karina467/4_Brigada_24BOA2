@@ -46,6 +46,7 @@ int load_from_file(const char* filename, int** arr) {
     if (file == NULL) {
         printf("Файл не найден!\n");
         return 0;
+        
     }
 
     // сначала считаем количество чисел
