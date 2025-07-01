@@ -19,7 +19,7 @@ void sort(int arr[], int n) { //Сортировка вставками
     }
 }
 
-void save_to_file(const char* filename, int arr[], int n) {
+void save_to_file(const char* filename, int arr[], int n) { //Сохранение массива в файл
     FILE* file = fopen(filename, "w");
     for (int i = 0; i < n; i++) {
         fprintf(file, "%d ", arr[i]);
