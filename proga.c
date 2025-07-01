@@ -56,7 +56,7 @@ int load_from_file(const char* filename, int** arr) {//Загрузка масс
     return count;
 }
 
-void create_sluch_array() {
+void create_sluch_array() { //Заполнение случайными значениями
     printf("Введите количество элементов: ");
     scanf("%d", &num_count);
     if (arr != NULL) {
