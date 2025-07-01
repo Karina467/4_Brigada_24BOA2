@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+ 
 int* arr = NULL;
 int num_count = 0;  
 const char* sluch_filename = "sluch_array.txt";//Файл для случайных чисел
